@@ -25,10 +25,12 @@ To use the script, run the following command:
 
 Options
 
-    --create: Create a new database file called "loans.db"
+    --create: Create a new database file called "loans_*date*.db"
     --add NAME AMOUNT: Add a new loan to the database with the borrower's name and the loan amount
     --display: Display all the loans in the database
     --combine OLD_DATABASE NEW_DATABASE: Combine two databases into a single database
+    --search NAME: searches the database for loans with the given name and displays the total amount of money that person owes.
+    --settle NAME AMOUNT: reduce the debt for the given name by the specified amount, or clear the debt if no amount is specified
 
 ## Examples
 
