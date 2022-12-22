@@ -11,12 +11,6 @@ Python 3
 SQLite3
 ``
 
-## Installation
-
-To install the required packages, run the following command:
-
-pip install -r requirements.txt
-
 ## Usage
 
 To use the script, run the following command:
